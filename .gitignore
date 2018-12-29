@@ -1,0 +1,9 @@
+train*
+runs/*
+visual/*
+*.pyc
+pretrained_models/*
+KITTI/*
+Models/pixor*
+predict.py
+
