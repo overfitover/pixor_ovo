@@ -3,7 +3,7 @@
 This is an unofficial inplementation of [Bird's Eye View Object Detection Algorithm for self-driving Cars] [PIXOR](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/3012.pdf) in Pytorch. A large part of this project is based on the work [here](https://github.com/ankita-kalra/PIXOR). Thanks to [@Ankita Kalra](https://github.com/ankita-kalra). This work is still ongoing.
 #requirement
 You should have the pointcloud with shape (n, 7) in the bin file.
-点云应该是有颜色(x,y,z,i,r,g,b)的点云.你也可以处理(x,y,z,i)格式的点云.需要稍作调整.
+点云应该是有颜色(x,y,z,r,g,b,i)的点云.你也可以处理(x,y,z,i)格式的点云.需要稍作调整.
 这个比我前一个pixor版本的要好些.更稳定一些.
 
 # Dependencies
